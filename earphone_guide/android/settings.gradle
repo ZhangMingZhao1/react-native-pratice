@@ -1,0 +1,3 @@
+rootProject.name = 'earphone_guide'
+
+include ':app'
