@@ -14,6 +14,7 @@
 		B474D2BB21A7DA1C00A3ECB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B474D2BA21A7DA1C00A3ECB9 /* Assets.xcassets */; };
 		B474D2BE21A7DA1C00A3ECB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B474D2BC21A7DA1C00A3ECB9 /* LaunchScreen.storyboard */; };
 		B474D2C121A7DA1C00A3ECB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B474D2C021A7DA1C00A3ECB9 /* main.m */; };
+		B474D2E621A8048400A3ECB9 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B474D2E521A8048300A3ECB9 /* main.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B474D2C021A7DA1C00A3ECB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B474D2C621A7DA1C00A3ECB9 /* ReactNativeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B474D2D121A7DA1C00A3ECB9 /* ReactNativeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B474D2E521A8048300A3ECB9 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ReactNative/release_ios/main.jsbundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		B474D2A521A7DA1B00A3ECB9 = {
 			isa = PBXGroup;
 			children = (
+				B474D2E521A8048300A3ECB9 /* main.jsbundle */,
 				B474D2B021A7DA1B00A3ECB9 /* ReactNativeDemo */,
 				B474D2AF21A7DA1B00A3ECB9 /* Products */,
 				C0C4976C2E3A7BF3302EF2FC /* Pods */,
@@ -238,6 +241,7 @@
 				B474D2BE21A7DA1C00A3ECB9 /* LaunchScreen.storyboard in Resources */,
 				B474D2BB21A7DA1C00A3ECB9 /* Assets.xcassets in Resources */,
 				B474D2B921A7DA1B00A3ECB9 /* Main.storyboard in Resources */,
+				B474D2E621A8048400A3ECB9 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

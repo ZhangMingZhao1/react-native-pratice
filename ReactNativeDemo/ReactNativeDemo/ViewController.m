@@ -21,8 +21,12 @@
 }
 
 - (IBAction)pushToReactNativeView:(id)sender {
-    NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
-    
+//    NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
+    NSURL *jsCodeLocation;
+    //#ifdef DEBUG
+    //    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] //jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+    //#else
+    jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL: jsCodeLocation
                                 moduleName: @"App"
